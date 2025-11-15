@@ -9,6 +9,10 @@ nav a {
     padding: 20px;
 }
 
+h1 {
+    color: darkblue;    
+}
+
 main {
     max-width: 840px;
 }
@@ -16,16 +20,20 @@ main {
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray; 
 }
 
-h1 {
-    color: darkblue;    
+p {
+    padding: 0;
 }
+
 
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0/0.2);
+    border: 1px solid rgb(0 0 0 / 0.2);/* why use ... */
     padding: 1rem;
     background-color: #eee;
     color: #333;
@@ -35,19 +43,6 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-}
-
-img {
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-    
-}
-
-p {
-    padding: 0;
 }
 
 footer {
