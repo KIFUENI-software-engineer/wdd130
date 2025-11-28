@@ -18,41 +18,11 @@
     background-color: var(--primary-color);
     color: var(--accent2-color);
   }
- ul {
-    display: grid;
-    grid-column-start: 1;grid-column-end: span3;
-    border-bottom: 1px solid #ccc;
-    width: 400px;
-    box-sizing: border-box;
-    margin-top: 20px;
-    margin-right: 20px;
-    padding: 10px;
-    background-color: #e9c46a;
-}
- ul {
-  display: flex;
-  list-style: none;
-  justify-content: flex-start;justify-content: space-between;
-}
-
- nav li{
-  flex: 1 1 auto;
-}
-
 
    body {
  font-family: var(--body-font);
  color: var(--accent1-color);
  }
-
-
-
- h1, h2 {
- font-family: var(--heading-font);
- color: var(--primary-color);
- }
-
-
 
   nav, p, section, article {
  margin: 16px;
@@ -105,16 +75,14 @@
  float: right;
  width: 125px;
  position: relative;
- }
+  }
 
- header {
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-around; /* Space out logo and navigation */
-    align-items: center; /* Vertically center items */
-    background-color: #055a05; /* Dark background for contrast */
-    padding: 3rem 2rem; /* Padding around content */
-    color: white; /* Text color */
-}
+  header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 2rem;
+  }
 
 /* Logo Styling */
 header img {
@@ -137,10 +105,10 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none; /* Remove underline from links */
-    color: #e9c46a; /* Link color */
     font-size: 1.1rem; /* Adjust font size */
     padding: 0; /* Padding for click area */
     transition: background-color 0.3s ease; /* Smooth hover effect */
+    box-sizing: border-box;
 }
 
 nav ul li a :hover{
@@ -197,7 +165,7 @@ h1 {
 }
 
 h2 {
-    color: Maroon;
+    color:#055a05;
     font-size: 1.25rem;
 }
 
