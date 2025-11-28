@@ -9,24 +9,12 @@
  :root {
   --primary-color: #055a05; /* forest green */
   --accent1-color: #264653; /* dark slate blue */
-  --accent2-color: #e9c46a; /* light golden yellow */
-  --accent3-color: black;
-  --heading-font: "Times New Roman", "Georgia", serif;
-  --body-font: Arial, Helvetica, sans-serif;
  }
-
-  nav, p, section, article {
- margin: 16px;
- padding: 8px;
- position: relative;
- }
-
-
-
- .social-media a {
- text-decoration:auto;
- }
-
+p, section, article{
+    margin: 16px;
+    padding: 8px;
+    position: relative;
+}
  .hero {
   position: relative;
  }
@@ -72,6 +60,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 3rem 2rem;
+    background-color: #055a05;
   }
 
 /* Logo Styling */
