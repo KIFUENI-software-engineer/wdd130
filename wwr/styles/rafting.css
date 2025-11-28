@@ -9,19 +9,28 @@
  :root {
   --accent1-color: #264653; /* dark slate blue */
  }
+
+
 p, section, article{
     margin: 16px;
     padding: 8px;
     position: relative;
 }
+
+
 .hero{
     position: relative;
 }
-img{
+
+
+img {
     display: block;
     width: 100%;
     height: auto;
 }
+
+
+
 .hero article{
   position: absolute;
  bottom: 20px;
@@ -52,6 +61,8 @@ img{
  position: relative;
   }
 
+
+
   header{
     display: flex;
     justify-content: space-around;
@@ -60,12 +71,18 @@ img{
     background-color: #055a05;
   }
 
+
+
+
 /* Logo Styling */
 header img {
     height: 150px; /* Adjust logo height as needed */
     width: auto; /* Maintain aspect ratio */
     border-radius: 5px; /* Slightly rounded corners for the logo */
 }
+
+
+
 
 /* Navigation Styling */
 nav ul {
@@ -75,9 +92,13 @@ nav ul {
     display: flex; /* Arrange navigation links horizontally */
 }
 
+
+
 nav ul li {
     margin-left: 2rem; /* Space between navigation items */
 }
+
+
 
 nav ul li a {
     text-decoration: none; /* Remove underline from links */
@@ -87,10 +108,14 @@ nav ul li a {
     box-sizing: border-box;
 }
 
+
+
 nav ul li a :hover{
   background-color: #055a05;
 }
-/* Responsive adjustments (optional, but recommended) */
+
+
+
 @media(max-width: 650px){
           header {
              flex-direction: column; /* Stack elements vertically on smaller screens */
@@ -107,6 +132,8 @@ nav ul li a :hover{
               margin: 0.5rem 0; /* Adjust spacing for vertical navigation */
           }
 }
+
+
 footer {
   margin: auto;
     padding: 0em;
@@ -115,17 +142,23 @@ footer {
     width: min(1500px, 90%);
 }
 
+
+
 footer{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
 footer nav a {
     margin-top: 1rem;
     flex-direction: column;
     align-items: center;
     text-decoration: none;
 }
+
+
 footer nav img {
     display: flex;
     max-width: 60px;
@@ -134,16 +167,22 @@ footer nav img {
     float: right;
 }
 
+
+
 h1 {
     font-size: 1.85rem;
     text-align: center;
     font-family: Acme, Arial, sans-serif;
 }
 
+
+
 h2 {
     color:#055a05;
     font-size: 1.25rem;
 }
+
+
 
 section {
     margin: 1em auto;
@@ -157,16 +196,22 @@ section {
     justify-content:center;
     align-content: center;
 }
+
+
  figcaption{
   text-align: center;
   padding: 0.3rem;
  }
+
+
  section img{
   display: flex;
   justify-content: space-around;
   width: 145px;
   height: auto;
  }
+
+
  section h2 {
   width: 200px;
   height: auto;
@@ -178,11 +223,15 @@ section {
  }
 
 
+
+
 code {
     font-family: 'Courier New', Courier, monospace;
     font-size: smaller;
     padding: 0.5em;
 }
+
+
 body {
     font-family: Arial, sans-serif;
 }
