@@ -7,7 +7,6 @@
 
 
  :root {
-  --primary-color: #055a05; /* forest green */
   --accent1-color: #264653; /* dark slate blue */
  }
 p, section, article{
@@ -15,16 +14,14 @@ p, section, article{
     padding: 8px;
     position: relative;
 }
- .hero {
-  position: relative;
- }
- 
- .hero img {
+.hero{
+    position: relative;
+}
+img{
     display: block;
     width: 100%;
     height: auto;
-  }
-
+}
 .hero article{
   position: absolute;
  bottom: 20px;
