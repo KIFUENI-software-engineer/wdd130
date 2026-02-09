@@ -1,179 +1,243 @@
-* {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
  }
+
+
 
  :root {
-     --accent1-color: #264653;
-     /* dark slate blue */
- }
-
- p,
- section,
- article {
-     margin: 16px;
-     padding: 8px;
-     position: relative;
-
- }
-
- .hero {
-     position: relative;
- }
-
- img {
-     display: block;
-     width: 100%;
-     height: auto;
+  --accent1-color: #264653; /* dark slate blue */
  }
 
 
-  .hero h1  {
-     position: relative;
-     top: 10px;
-     width: 100%;
-     padding: 16px;
-     opacity: 0.7;
-     text-align: center;
-     color: #fff;
-     background-color: #264653;
+p, section, article{
+    margin: 16px;
+    padding: 8px;
+    position: relative;
+}
+
+
+.hero{
+    position: relative;
+}
+div article {
+    position: absolute;
+    padding-top: 10px;
+}
+
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+   h1 {
+ position: absolute;
+ top: 1px;
+ width: 100%;
+ padding: 16px;
+ opacity: 0.7;
+ text-align: center;
+ background-color: #264653;
+ color: #fff;
+   }
+
+   h2{
+    position: relative;
+    top: 45px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+   }
+
+   h3 {
+    text-align: center;
+    bottom:1px;
+    width: 100%;
+    padding: 42px;
+   }
+   h4 {
+    position: relative;
+    text-align: center;
+    bottom: 45px;
+    width: 100%;
+    padding: 10px;
+   }
+
+   h5 {
+    text-align: center;
+    position: relative;
+    bottom: 45px;
+   }
+
+
+   
+  .hero article img {
+ float: right;
+ width: 125px;
+ position: relative;
+  }
+  .hero article {
+    background-color: #264653;
+    color: #fff;
+    position: relative;
+    padding-top: 10px;
+    padding: 10px
+  }
+
+
+
+  header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 2rem;
+    background-color: #055a05;
+  }
+
+
+
+
+/* Logo Styling */
+header img {
+    height: 150px; /* Adjust logo height as needed */
+    width: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Slightly rounded corners for the logo */
+}
+
+
+
+
+/* Navigation Styling */
+nav ul {
+    list-style: none; /* Remove bullet points from list */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Arrange navigation links horizontally */
+}
+
+
+
+nav ul li {
+    margin-left: 2rem; /* Space between navigation items */
+}
+
+
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1.1rem; /* Adjust font size */
+    padding: 0; /* Padding for click area */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    box-sizing: border-box;
+}
+
+
+
+nav ul li a :hover{
+  background-color: #055a05;
+}
+
+
+
+@media(max-width: 650px){
+          header {
+             flex-direction: column; /* Stack elements vertically on smaller screens */
+             padding: 1rem;
+          }
+
+          nav ul {
+             margin-top: 1rem;
+             flex-direction: column; /* Stack navigation links vertically */
+             align-items: center;
+          }
+
+          nav ul li {
+              margin: 0.5rem 0; /* Adjust spacing for vertical navigation */
+          }
+}
+
+
+footer {
+  margin: auto;
+    padding: 0em;
+    border: 1px solid rgb(0 0 0 / 10%);
+    background-color: #ddd;
+    width: min(1500px, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer nav a {
+    margin-top: 1rem;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+footer nav img {
+    display: flex;
+    max-width: 60px;
+    height: auto; 
+    object-fit: contain;
+    float: right;
+}
+
+
+
+
+h2 {
+    color:#055a05;
+    font-size: 1.25rem;
+}
+
+
+
+section {
+    margin: 1em auto;
+    padding: 1em;
+    border: 1px solid rgb(0 0 0 / 10%);
+    background-color: #ddd;
+    width: min(1200px, 100%);
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content:center;
+    align-content: center;
+}
+
+
+ figcaption{
+  text-align: center;
+  padding: 0.3rem;
  }
 
- .hero article {
-     position: relative;
-     bottom: 10px;
-     width: 100%;
-     padding: 16px;
-     opacity: 0.7;
-     text-align: center;
-     color: #fff;
-     background-color: #264653;
+
+ figure{
+    justify-content: space-between;
  }
 
- h2 {
-     position: relative;
-     top: 10px;
-     width: 100%;
-     padding: 10px;
-     text-align: center;
- }
 
- h3,
- h4,
- h5 {
-     text-align: center;
- }
 
- .hero article img {
-     float: right;
-     width: 125px;
-     position: relative;
- }
 
- header {
-     padding: 2rem 3rem;
-     background-color: #055a05;
- }
+code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: smaller;
+    padding: 0.5em;
+}
 
- /* Logo Styling */
- header img {
-     height: 150px;
-     /* Adjust logo height as needed */
-     width: auto;
-     /* Maintain aspect ratio */
-     border-radius: 5px;
-     /* Slightly rounded corners for the logo */
- }
 
- nav ul li a {
-     text-decoration: none;
-     /* Remove underline from links */
-     font-size: 1.1rem;
-     /* Adjust font size */
-     padding: 0;
-     /* Padding for click area */
-     transition: background-color 0.3s ease;
-     /* Smooth hover effect */
-     box-sizing: border-box;
- }
+body {
+    font-family: Arial, sans-serif;
+}
+form {
+    text-align: center;
+}
 
- nav ul li a :hover {
-     background-color: #055a05;
- }
 
- footer {
-     margin: auto;
-     padding: 0em;
-     border: 1px solid rgb(0 0 0 / 10%);
-     background-color: #ddd;
-     width: min(1500px, 90%);
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
-
- footer nav a {
-     margin-top: 1rem;
-     flex-direction: column;
-     align-items: center;
-     text-decoration: none;
- }
-
- footer nav img {
-     display: flex;
-     max-width: 60px;
-     height: auto;
-     object-fit: contain;
-     float: right;
- }
-
- h2 {
-     color: #055a05;
-     font-size: 1.25rem;
- }
-
- section {
-     margin: 1em auto;
-     padding: 1em;
-     border: 1px solid rgb(0 0 0 / 10%);
-     background-color: #ddd;
-     width: min(1200px, 100%);
-     display: flex;
-     list-style: none;
-     flex-direction: row;
-     justify-content: center;
-     align-content: center;
- }
-
- figcaption {
-     text-align: center;
-     padding: 0.3rem;
- }
-
- section img {
-     display: flex;
-     justify-content: space-around;
-     width: 145px;
-     height: auto;
- }
-
- section h2 {
-     width: 200px;
-     height: auto;
-     display: flex;
-     justify-content: center;
-     justify-items: center;
-     position: relative;
-
- }
-
- code {
-     font-family: 'Courier New', Courier, monospace;
-     font-size: smaller;
-     padding: 0.5em;
- }
-
- body {
-     font-family: Arial, sans-serif;
- }
+ 
