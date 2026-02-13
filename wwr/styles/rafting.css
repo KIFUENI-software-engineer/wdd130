@@ -35,7 +35,7 @@ img {
 
    h2{
     position: relative;
-    top: 45px;
+    top: 70px;
     width: 100%;
     padding: 10px;
     text-align: center;
@@ -45,16 +45,16 @@ img {
 
    h3 {
     text-align: center;
-    bottom:1px;
+    bottom:50px;
     width: 100%;
-    padding: 42px;
+    padding: 70px;
    }
    h4 {
     position: relative;
     text-align: center;
-    bottom: 45px;
+    bottom: 50px;
     width: 100%;
-    padding: 10px;
+    padding: auto;
    }
 
    h5 {
