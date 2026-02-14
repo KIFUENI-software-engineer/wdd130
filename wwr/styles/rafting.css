@@ -9,7 +9,7 @@
 
 
 p, section, article{
-    margin: 16px;
+    margin: 15px;
     padding: 8px;
     position: relative;
 }
@@ -199,9 +199,13 @@ section {
   padding: 0.3rem;
  }
 
-
- figure{
-    justify-content: space-between;
+ figure img{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+ }
+ h2 img {
+    width: auto;
  }
 
 
