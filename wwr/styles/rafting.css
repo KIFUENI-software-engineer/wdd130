@@ -200,9 +200,8 @@ section {
  }
 
  figure img{
-    display: flex;
-    justify-content: space-around;
     width: auto;
+
  }
  h2 img {
     width: auto;
