@@ -79,6 +79,26 @@ img {
      background-color: var(--primary-color);
 }
 
+ section p{
+ width: 40rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);/* why use ... */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;   
+}
+figure {
+    width: 40rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);/* why use ... */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center; 
+    float: right; 
+    
+}
 
 
   header{
