@@ -106,7 +106,7 @@ figure {
     justify-content: space-around;
     align-items: center;
     padding: 3rem 2rem;
-    background-color:rgb(160 255 160) (Light Green);
+    background-color:rgb(160 255 160);
   }
 
 
@@ -149,7 +149,7 @@ nav ul li a {
 
 
 nav ul li a :hover{
-  background-color:rgb(160 255 160)(Light Green);
+  background-color:rgb(160 255 160);
 }
 
 
