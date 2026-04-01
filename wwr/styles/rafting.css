@@ -101,14 +101,14 @@ figure {
 }
 
 
-  header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 3rem 2rem;
-    background-color:rgb(160 255 160);
-  }
-
+  header {
+  display: grid;
+  /* Define as colunas (ex: logótipo, menu, botão) */
+  grid-template-columns: auto 1fr auto;
+  padding: 3rem 2rem; 
+  gap: 20px; /* Garante um espaçamento uniforme entre itens */
+  background-color:rgb(160 255 160);
+}
 
 
 

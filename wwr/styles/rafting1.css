@@ -76,6 +76,15 @@
      background-color: #055a05;
  }
 
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem 2rem;
+    background-color:rgb(160 255 160);
+}
+
+
  /* Logo Styling */
  header img {
      height: 150px;
