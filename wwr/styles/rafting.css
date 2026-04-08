@@ -241,7 +241,10 @@ body {
     font-family: Arial, sans-serif;
 }
 form {
-    text-align: center;
+    display: grid;
+    justify-content: center;
+    padding: 3rem 2rem; 
+    gap: 20px
 }
 
 
